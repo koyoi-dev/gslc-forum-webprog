@@ -4,7 +4,7 @@
 
 @section('content')
     <h1 class="mb-3 fw-bold">My Watchlist</h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
         @foreach($watchlist as $anime)
             <div class="col">
                 <div class="card h-100">
